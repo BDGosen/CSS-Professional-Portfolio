@@ -1,0 +1,109 @@
+
+    /* wildcard styling */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+     
+    /* padding for whole body */
+    body {
+        padding: 15px;
+    }
+     
+    /* styling body */
+    .container {
+        max-width: 1200px;
+        margin: auto;
+    }
+     
+    h1 {
+        color: green;
+      
+    }
+
+    h2 {
+        color: green;
+        text-align: center;
+    }
+     
+    /* anchor tag decoration */
+    a {
+        text-decoration: none;
+        color: #5673C8;
+    }
+     
+    a:hover {
+        color: lightblue;
+    }
+     
+    /* paragraph tag decoration */
+    p {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        overflow: hidden;
+ 
+    }
+     
+    /* row and column decoration */
+    .row {
+        display: flex;
+        justify-content: center;
+        padding: 8px;
+    }
+     
+    .row > .column {
+        padding: 6px;
+    }
+     
+    .column {
+        
+        width: 25%;
+    }
+     
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+     
+    /* content decoration */
+    .content {
+        background-color: white;
+        padding: 10px;
+        border: 1px solid gray;
+    }
+     
+
+
+
+    /* Hero Style Start */
+.hero {
+    background-image: url("../images/portfolio-hero-bg.jpg");
+    height: 600px;
+    /* background-size: cover; */
+    object-fit: none;
+    width: 100%;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .heroForm {
+    color: white;
+    background-color: green;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  /* Hero Style End */
+
+  section {
+    padding: 60px
+}
+
+nav {
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
