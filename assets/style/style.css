@@ -98,12 +98,25 @@
   }
   /* Hero Style End */
 
-  section {
-    padding: 60px
-}
-
 nav {
     color: green;
     font-weight: bold;
     font-size: 20px;
+}
+
+section {
+    color: darkgreen;
+}
+
+#quick-links {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#about-me {
+    color: darkgreen;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#portfolio {
+    margin-top: 15px;
 }
